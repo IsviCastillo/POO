@@ -47,7 +47,7 @@ class Redes{
         this.notaFinal = _notaFinal;
     }
     
-    CalcularNotas(): void {      ///Sabiendo que los laboratorios forman el 60% de la nota final y los parciales el 40%
+    CalcularNotas(): void {      
         let notaLab =(this.laboratorio1 + this.laboratorio2 + this.laboratorio3) /3;
         let notaParcial =(this.parcial1 + this.parcial2 + this.parcial3) /3;
         this.notaFinal = (notaLab * 0.6) + (notaParcial * 0.4);
